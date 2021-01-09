@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UsersApp"
         mc:Ignorable="d"
-        Title="Приложение для пользователей" Height="600" Width="1000"
+        Title="Приложение для пользователей" Height="600" Width="800"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         >
     <Grid Background="#ffdadada">
@@ -15,7 +15,16 @@
                 
             </Border.Effect>
             <StackPanel>
-                <TextBlock Text="Привет Вам!" FontSize="30"></TextBlock>
+                <TextBlock Text="Привет Вам!" FontSize="30" FontWeight="Bold" Margin="0,0,0,20" />
+                <Grid Margin="0,0,0,20" >
+                    <Button HorizontalAlignment="Left" Content="Регистрация" />
+                    <Button HorizontalAlignment="Right" Content="Войти" Style="{StaticResource MaterialDesignFlatButton}" />
+                </Grid>
+                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}" ></TextBox>
+                <PasswordBox x:Name="passBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" ></PasswordBox>
+                <PasswordBox  x:Name="passBox_2" materialDesign:HintAssist.Hint="Повторите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" ></PasswordBox>
+                <TextBox  x:Name="textBoxEmail" materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFloatingHintTextBox}" ></TextBox>
+                <Button Click="Button_Reg_Click"  Content="Зарегестрироваться"></Button>
             </StackPanel>
         </Border>
     </Grid>
