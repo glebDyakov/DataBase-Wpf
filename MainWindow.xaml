@@ -16,15 +16,16 @@
             </Border.Effect>
             <StackPanel>
                 <TextBlock Text="Привет Вам!" FontSize="30" FontWeight="Bold" Margin="0,0,0,20" />
+                   
                 <Grid Margin="0,0,0,20" >
                     <Button HorizontalAlignment="Left" Content="Регистрация" />
-                    <Button HorizontalAlignment="Right" Content="Войти" Style="{StaticResource MaterialDesignFlatButton}" />
+                    <Button HorizontalAlignment="Right" Click="Button_Window_Auth_Click" Content="Войти" Style="{StaticResource MaterialDesignFlatButton}" />
                 </Grid>
                 <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}" ></TextBox>
                 <PasswordBox x:Name="passBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" ></PasswordBox>
                 <PasswordBox  x:Name="passBox_2" materialDesign:HintAssist.Hint="Повторите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" ></PasswordBox>
                 <TextBox  x:Name="textBoxEmail" materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFloatingHintTextBox}" ></TextBox>
-                <Button Click="Button_Reg_Click"  Content="Зарегестрироваться"></Button>
+                <Button Click="Button_Reg_Click" x:Name="regButton" Content="Зарегестрироваться"></Button>
             </StackPanel>
         </Border>
     </Grid>

@@ -20,3 +20,16 @@ C:\WPF_PROJECTS\UsersApp\obj\Debug\UsersApp.csproj.CoreCompileInputs.cache
 C:\WPF_PROJECTS\UsersApp\obj\Debug\UsersApp.csproj.CopyComplete
 C:\WPF_PROJECTS\UsersApp\obj\Debug\UsersApp.exe
 C:\WPF_PROJECTS\UsersApp\obj\Debug\UsersApp.pdb
+C:\WPF_PROJECTS\UsersApp\bin\Debug\itproger.db
+C:\WPF_PROJECTS\UsersApp\bin\Debug\EntityFramework.dll
+C:\WPF_PROJECTS\UsersApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\WPF_PROJECTS\UsersApp\bin\Debug\System.Data.SQLite.dll
+C:\WPF_PROJECTS\UsersApp\bin\Debug\System.Data.SQLite.EF6.dll
+C:\WPF_PROJECTS\UsersApp\bin\Debug\System.Data.SQLite.Linq.dll
+C:\WPF_PROJECTS\UsersApp\bin\Debug\EntityFramework.xml
+C:\WPF_PROJECTS\UsersApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\WPF_PROJECTS\UsersApp\bin\Debug\System.Data.SQLite.xml
+C:\WPF_PROJECTS\UsersApp\obj\Debug\AuthWindow.g.cs
+C:\WPF_PROJECTS\UsersApp\obj\Debug\UserPageWindow.g.cs
+C:\WPF_PROJECTS\UsersApp\obj\Debug\AuthWindow.baml
+C:\WPF_PROJECTS\UsersApp\obj\Debug\UserPageWindow.baml
